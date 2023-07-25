@@ -3,126 +3,66 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 1rem;
+    margin-bottom: 30px;
 }
 
-header h1 {
-    margin: 0;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-section {
-    margin-bottom: 2rem;
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+    background-color: #87CBB9;
+    padding: 20px;
+    margin-top: 0;
 }
 
 h2 {
-    color: #333;
+    color: #555;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+p {
+    color: #666;
+    padding-left: 20px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    margin-top: 30px;
     text-align: center;
-    padding: 1rem;
+    color: #999;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+.wrap-container{
+    padding: 0 20px;
 }
 
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-}
-
-header h1 {
-    margin: 0;
-}
-
-/* ... Previous styles ... */
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* Center the form */
-.return-form-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Style the form inputs */
-.return-form-section form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin-top: 1rem;
-}
-
-.return-form-section form div {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-}
-
-.return-form-section form label {
-    font-weight: bold;
-}
-
-.return-form-section form input,
-.return-form-section form textarea {
-    padding: 0.5rem;
-    font-size: 16px;
-}
-
-.return-form-section form textarea {
-    resize: vertical;
-}
-
-.return-form-section form button {
-    padding: 0.75rem 1rem;
-    font-size: 16px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.footer {
-    /* ... Previous styles ... */
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+    h2 {
+        font-size: 20px;
+    }
 }
